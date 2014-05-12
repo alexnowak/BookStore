@@ -11,6 +11,10 @@
 	Message is: #{messageServerBean.message}
 	<br/>
 	Message Server Bean is: #{messageServerBean}
+	<br/>
+	<h:form>
+	<h:commandButton value="Send Email" action="#{bookService.createBook}"/>
+	</h:form>
     </h:body>
 </html>
 

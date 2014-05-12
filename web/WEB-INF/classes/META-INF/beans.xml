@@ -4,7 +4,13 @@
        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
        version="1.1" bean-discovery-mode="all">
 
+    <!-- FOR TESTING    
+    <alternatives>
+	<class>services.MockGenerator</class>
+    </alternatives>
+    -->
+    
     <interceptors>
-        <class>logging.LoggingInterceptor</class>
+	<class>logging.LoggingInterceptor</class>
     </interceptors>
 </beans>
