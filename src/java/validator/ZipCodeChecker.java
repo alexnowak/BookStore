@@ -9,6 +9,10 @@ package validator;
  *
  * @author Alexander Nowak
  */
-class ZipCodeChecker {
+@USA
+public class ZipCodeChecker {
+       public boolean isZipCodeValid(String zipCode) {
+           return true;
+       }
     
 }
